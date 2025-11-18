@@ -4,6 +4,25 @@ Apache CloudStack Collection Release Notes
 
 .. contents:: Topics
 
+v3.0.0
+======
+
+Major Changes
+-------------
+
+- Ensuring backwards compatibility and integration tests with CloudStack 4.17 and 4.18.
+- General overhaul (black code style) and renaming of all modules (dropping ``cs_`` prefix) (https://github.com/ngine-io/ansible-collection-cloudstack/pull/141).
+- Update cs dependency to ``>=3.4.0``.
+
+Bugfixes
+--------
+
+- Ensure tags are applied when creating or updating a template (https://github.com/ngine-io/ansible-collection-cloudstack/pull/154).
+
+New Modules
+-----------
+
+- configuration_info - Gathering information about configurations from Apache CloudStack based clouds.
 
 v2.5.0
 ======
